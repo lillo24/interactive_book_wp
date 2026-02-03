@@ -30,6 +30,12 @@ export default function Home() {
               >
                 <Heart size={18} /> Crea il tuo libro
               </Link>
+              <Link
+                href="/book/demo"
+                className="px-8 py-3 bg-white/80 border-2 border-rose-300 hover:border-rose-400 text-rose-800 rounded-full font-medium transition-all hover:bg-white"
+              >
+                Prova demo
+              </Link>
               <Link 
                 href="/gallery" 
                 className="px-8 py-3 border-2 border-rose-300 hover:border-rose-400 text-rose-800 rounded-full font-medium transition-all hover:bg-white/50"
